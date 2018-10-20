@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("fonts/MYRIADPRO-REGULAR_0.OTF");
+}
+
 * {
     margin: 0;
 }
@@ -9,4 +14,29 @@ body {
 .head {
     height: 100vh;
     background-color: black;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction {
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    font-family: "Myriad Pro", serif;
+    font-weight: 300;
+    text-align: center;
+    position: absolute;
+}
+
+.introduction>div>span {
+    color: #26ace2;
+}
+
+.halo>img {
+    width: 100%;
+    height: auto;
 }
