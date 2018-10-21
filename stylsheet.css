@@ -11,12 +11,9 @@ body {
     box-sizing: border-box;
 }
 
-.head {
+#head-container {
     height: 100vh;
     background-color: black;
-}
-
-.head {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,4 +36,15 @@ body {
 .halo>img {
     width: 100%;
     height: auto;
+}
+
+.down-btn {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+}
+
+#skills-container {
+    height: 100vh;
+    background-color: #ffffff;
 }

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 34" width="56" height="34">
+	<defs>
+		<image width="56" height="34" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAiBAMAAAD45QfQAAAAAXNSR0IB2cksfwAAADBQTFRFAAAAIx8gIx8gIx8gIx8gIx8gIx8gIx8gIx8gIx8gIx8gIx8gIx8gIx8gIx8gIx8gdPR8lAAAABB0Uk5TACCPv0CfcBBg/+8wr89QgD97z9cAAADVSURBVHicddItDsJAEAXgJ2jSBAFB4jhDwxEQHIETYDlCLZqEMPxZ0mCqsSgcjuuwu53d7u5MV7Sdfe8zzQCzagHlrKotUBJRLbOC6NxibcKTDDfm+oEPabSwt0fYp6QW0qELc+qgCRuNOkhXfqe0g0bMSVIGX4wbQRnedsBLUIY/8yloBAO9+3Dfw0DNr3SnpGTk6lOb0m4G03IGk7aAcV3AqK/AHiiwpxoMVIOBqjChOYyphBG9yAwTH9ZK6BdAWX+EDVAhUx0yHYCODkFg9F5O4/kP5EjzT6QfcbMAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Vector Smart Object" href="#img1" x="0" y="0" />
+</svg>
