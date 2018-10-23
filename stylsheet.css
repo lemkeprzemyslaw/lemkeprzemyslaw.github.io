@@ -48,3 +48,11 @@ body {
     height: 100vh;
     background-color: #ffffff;
 }
+
+.foto {
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
