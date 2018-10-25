@@ -32,8 +32,8 @@ body {
     position: absolute;
 }
 
-.position>span {
-    color: #3cb7e7;
+span {
+    color: #26ace2;
 }
 
 .name {
@@ -52,11 +52,15 @@ body {
     position: absolute;
     bottom: 25px;
     left: 50%;
+    background: url("img/downbtn.png");
+    width: 56px;
+    height: 34px;
 }
 
 #skills-container {
     height: 100vh;
     background-color: #ffffff;
+    display: flex;
 }
 
 .foto {
@@ -65,4 +69,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.down-btn:hover {
+    background: url("img/downbtn-hover.png");
+}
+
+.bio {
+    padding: 83px;
+}
+
+.bio-header {
+    font-family: ﻿Roboto Condensed;
+    font-size: 36px;
+    text-align: left;
+}
+
+.bio-description {
+    padding-top: 43px;
+    max-width: 556px;
+    text-align: justify;
 }
