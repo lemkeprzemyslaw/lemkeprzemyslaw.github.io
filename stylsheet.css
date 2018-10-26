@@ -16,6 +16,11 @@ body {
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 #head-container {
     height: 100vh;
     background-color: black;
@@ -61,6 +66,8 @@ span {
     height: 100vh;
     background-color: #ffffff;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .foto {
@@ -79,14 +86,37 @@ span {
     padding: 83px;
 }
 
-.bio-header {
-    font-family: ﻿Roboto Condensed;
-    font-size: 36px;
+.bio-header, .skill-header {
+    font-family: Roboto Condensed;
+    font-size: 40px;
     text-align: left;
 }
 
+.skill-header {
+    font-size: 36px;
+    padding-top: 84px;
+}
+
 .bio-description {
+    font-family: Roboto Condensed;
     padding-top: 43px;
     max-width: 556px;
     text-align: justify;
+    line-height: 30px;
+}
+
+#projects-container {
+    height: 100vh;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-container {
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
