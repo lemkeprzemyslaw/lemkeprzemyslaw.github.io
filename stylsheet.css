@@ -105,6 +105,33 @@ span {
     line-height: 30px;
 }
 
+.diamonds {
+    background: url("img/diamond.png");
+    background-position-x: 17px;
+    width: 556px;
+    height: 32px;
+    position: absolute;
+    z-index: 2;
+}
+
+.note {
+    background-color: #26ace2;
+    width: 400px;
+    height: 32px;
+    position: absolute;
+}
+
+.skill {
+    font-family: Roboto Condensed;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    width: 556px;
+    height: 32px;
+    position: absolute;
+    z-index: 3;
+}
+
 #projects-container {
     height: 100vh;
     background-color: #000000;
