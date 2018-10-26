@@ -55,7 +55,7 @@ span {
 
 .down-btn {
     position: absolute;
-    bottom: 25px;
+    bottom: 37px;
     left: 50%;
     background: url("img/downbtn.png");
     width: 56px;
@@ -119,4 +119,17 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.contact-header {
+    font-family: Roboto Condensed;
+    font-size: 48px;
+    text-align: center;
+}
+
+.contact {
+    font-family: Roboto Condensed;
+    font-size: 40px;
+    padding-top: 43px;
 }
