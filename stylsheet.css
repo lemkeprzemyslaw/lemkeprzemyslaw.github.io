@@ -105,20 +105,23 @@ span {
     line-height: 30px;
 }
 
-.diamonds {
-    background: url("img/diamond.png");
-    background-position-x: 17px;
+.skill-graph {
+    border: #1e89b4 solid 2px;
     width: 556px;
     height: 32px;
-    position: absolute;
-    z-index: 2;
 }
 
 .note {
-    background-color: #26ace2;
-    width: 400px;
+    width: 70%;
     height: 32px;
-    position: absolute;
+    background-color: #26ace2;
+    background-image: url("img/diamond.png");
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: ;
 }
 
 .skill {
