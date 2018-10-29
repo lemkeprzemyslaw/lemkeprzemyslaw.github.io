@@ -1,6 +1,16 @@
 @font-face {
-    font-family: "Myriad Pro";
+    font-family: "MyriadPro-Light";
     src: url("fonts/MYRIADPRO-LIGHT_0.OTF");
+}
+
+@font-face {
+    font-family: "MyriadPro-Regular";
+    src: url("fonts/MYRIADPRO-REGULAR_0.OTF");
+}
+
+@font-face {
+    font-family: "MyriadPro-Bold";
+    src: url("fonts/MYRIADPRO-BOLD_0.OTF");
 }
 
 @font-face {
@@ -31,7 +41,7 @@ body {
 
 .introduction {
     color: #ffffff;
-    font-family: Roboto Condensed;
+    font-family: Roboto Condensed, Myriad_Pro;
     font-weight: 300;
     text-align: center;
     position: absolute;
@@ -87,7 +97,7 @@ span {
 }
 
 .bio-header, .skill-header {
-    font-family: Roboto Condensed;
+    font-family: MyriadPro-Light, MyriadPro-Regular;
     font-size: 40px;
     text-align: left;
 }
@@ -98,7 +108,7 @@ span {
 }
 
 .bio-description {
-    font-family: Roboto Condensed;
+    font-family: MyriadPro-Light, MyriadPro-Regular;
     padding-top: 43px;
     max-width: 556px;
     text-align: justify;
@@ -106,33 +116,35 @@ span {
 }
 
 .skill-graph {
-    border: #1e89b4 solid 2px;
     width: 556px;
     height: 32px;
+    margin-top: 30px;
+    background: url("img/diamond.png");
 }
 
 .note {
-    width: 70%;
     height: 32px;
     background-color: #26ace2;
     background-image: url("img/diamond.png");
+    font-family: MyriadPro-Bold, MyriadPro-Regular;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.html-skill {
+    width: 70%;
 }
 
 .flex {
     display: flex;
     flex-direction: column;
-    align-items: ;
 }
 
 .skill {
-    font-family: Roboto Condensed;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    width: 556px;
-    height: 32px;
-    position: absolute;
-    z-index: 3;
+    padding-left: 15px;
+    padding-top: 5px;
 }
 
 #projects-container {
