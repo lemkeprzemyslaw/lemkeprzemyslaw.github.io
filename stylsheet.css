@@ -70,10 +70,11 @@ span {
     background: url("img/downbtn.png");
     width: 56px;
     height: 34px;
+    transform: translate(-50%);
 }
 
 #skills-container {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
@@ -86,6 +87,10 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.foto>img {
+    max-width: 100vh;
 }
 
 .down-btn:hover {
