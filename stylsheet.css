@@ -115,25 +115,52 @@ span {
     line-height: 30px;
 }
 
+.skill-graph, .note {
+    background-image: url("img/diamond.png");
+    background-position: 15px;
+}
+
 .skill-graph {
     width: 556px;
     height: 32px;
     margin-top: 30px;
-    background: url("img/diamond.png");
 }
 
 .note {
-    height: 32px;
-    background-color: #26ace2;
-    background-image: url("img/diamond.png");
-    font-family: MyriadPro-Bold, MyriadPro-Regular;
-    color: white;
-    font-size: 24px;
-    display: flex;
-    align-items: center;
+height: 32px;
+background-color: #26ace2;
+font-family: MyriadPro-Bold, MyriadPro-Regular;
+color: white;
+font-size: 24px;
+display: flex;
+align-items: center;
 }
 
 .html-skill {
+width: 70%;
+}
+
+.css-skill {
+width: 70%;
+}
+
+.js-skill {
+    width: 50%;
+}
+
+.jquery-skill {
+    width: 50%;
+}
+
+.react-skill {
+    width: 25%;
+}
+
+.git-skill {
+    width: 60%;
+}
+
+.jira-skill {
     width: 70%;
 }
 
