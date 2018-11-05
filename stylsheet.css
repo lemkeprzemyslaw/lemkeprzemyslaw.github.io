@@ -183,11 +183,21 @@ width: 70%;
     height: 100vh;
     background-color: #000000;
     display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: stretch;
 }
 
-.left-container {
+#projects-container:after {
+    display: block;
+    content: " miejsce na nowe projekty ";
+    flex: 999 999 auto;
+}
+
+/*.left-container {
     width: 35%;
     height: 100vh;
 }
@@ -199,7 +209,7 @@ width: 70%;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-}
+}*/
 
 .projects-header {
     font-family: MyriadPro-Light, MyriadPro-Regular;
@@ -221,6 +231,10 @@ width: 70%;
 .s {
     width: 361px;
     height: 231px;
+}
+
+.right-margin {
+    margin-right: 15px;
 }
 
 .xs {
