@@ -261,6 +261,30 @@ span {
     .foto {
         display: none;
     }
+
+    .name {
+        font-size: 41px;
+    }
+
+    .position {
+        font-size: 35px;
+    }
+
+    .bio {
+        padding: 15px;
+    }
+
+    .contact-header {
+        font-size: 30px;
+    }
+
+    .contact {
+        font-size: 20px;
+    }
+
+    .projects-header {
+        font-size: 45px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
