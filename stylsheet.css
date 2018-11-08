@@ -21,15 +21,11 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 body {
     box-sizing: border-box;
-}
-
-.container {
-    max-width: 1280px;
-    margin: 0 auto;
 }
 
 #head-container {
@@ -38,6 +34,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("img/halo.png");
+    background-position: center;
 }
 
 .introduction {
@@ -127,7 +125,7 @@ span {
 }
 
 .skill-graph {
-    width: 556px;
+    max-width: 556px;
     height: 32px;
     margin-top: 30px;
 }
@@ -219,27 +217,19 @@ width: 70%;
 }
 
 .xl {
-    width: 738px;
-    height: 471px;
+    max-width: 738px;
 }
 
 .l {
-    width: 486px;
-    height: 310px;
+    max-width: 486px;
 }
 
 .s {
-    width: 361px;
-    height: 231px;
-}
-
-.right-margin {
-    margin-right: 15px;
+    max-width: 361px;
 }
 
 .xs {
     width: 238px;
-    height: 152px;
 }
 
 .xl-center {
@@ -249,7 +239,7 @@ width: 70%;
 
 .s-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #contact-container {
@@ -271,4 +261,35 @@ width: 70%;
     font-family: Roboto Condensed;
     font-size: 40px;
     padding-top: 43px;
+}
+
+.grid {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.dark {
+    background-color: #000000;
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .grid {
+        max-width: 750px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .grid {
+        max-width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .grid {
+        max-width: 1280px;
+    }
 }
