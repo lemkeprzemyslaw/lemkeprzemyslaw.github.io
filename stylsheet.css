@@ -88,7 +88,7 @@ span {
     align-items: center;
 }
 
-.foto>img {
+.foto > img {
     max-width: 100vh;
 }
 
@@ -131,21 +131,21 @@ span {
 }
 
 .note {
-height: 32px;
-background-color: #26ace2;
-font-family: MyriadPro-Bold, MyriadPro-Regular;
-color: white;
-font-size: 24px;
-display: flex;
-align-items: center;
+    height: 32px;
+    background-color: #26ace2;
+    font-family: MyriadPro-Bold, MyriadPro-Regular;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
 }
 
 .html-skill {
-width: 70%;
+    width: 70%;
 }
 
 .css-skill {
-width: 70%;
+    width: 70%;
 }
 
 .js-skill {
@@ -194,20 +194,6 @@ width: 70%;
     content: " miejsce na nowe projekty ";
     flex: 999 999 auto;
 }
-
-/*.left-container {
-    width: 35%;
-    height: 100vh;
-}
-
-.right-container {
-    width: 65%;
-    height: 100vh;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-}*/
 
 .projects-header {
     font-family: MyriadPro-Light, MyriadPro-Regular;
@@ -264,7 +250,6 @@ width: 70%;
 }
 
 .grid {
-    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -273,7 +258,9 @@ width: 70%;
 }
 
 @media (max-width: 767px) {
-
+    .foto {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
