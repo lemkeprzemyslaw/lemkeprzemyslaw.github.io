@@ -299,6 +299,27 @@ span {
         background-image: url("img/halo-crop.png");
         background-position: center;
     }
+
+    .bio-header, .skill-header {
+        font-size: 32px;
+        padding: 15px 0 0 0;
+    }
+
+    .bio-description {
+        padding-top: 15px;
+    }
+
+    .skill-graph {
+        margin-top: 25px;
+    }
+
+    .skill-graph:first-child {
+        margin-top: 5px;
+    }
+
+    .skill-graph:last-child {
+        margin-bottom: 25px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
