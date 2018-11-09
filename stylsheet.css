@@ -235,6 +235,7 @@ span {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 
 .contact-header {
@@ -255,6 +256,11 @@ span {
 
 .dark {
     background-color: #000000;
+}
+
+.codewars {
+    position: absolute;
+    bottom: 0px;
 }
 
 @media (max-width: 767px) {
@@ -279,11 +285,16 @@ span {
     }
 
     .contact {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .projects-header {
-        font-size: 45px;
+        font-size: 40px;
+    }
+
+    #head-container {
+        background-image: url("img/halo-crop.png");
+        background-position: center;
     }
 }
 
