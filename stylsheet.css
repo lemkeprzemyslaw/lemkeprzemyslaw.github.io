@@ -200,6 +200,7 @@ span {
     font-size: 55px;
     color: #ffffff;
     text-align: center;
+    padding: 20px 0;
 }
 
 .xl {
@@ -221,11 +222,17 @@ span {
 .xl-center {
     display: flex;
     justify-content: center;
+    padding: 0 10px;
 }
 
 .s-container {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
+}
+
+.right-margin {
+    padding-right: 10px;
 }
 
 #contact-container {
