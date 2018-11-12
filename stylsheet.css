@@ -68,28 +68,28 @@ span {
     transform: translate(-50%);
 }
 
+.down-btn:hover {
+    background: url("img/downbtn-hover.png");
+}
+
 #skills-container {
-    min-height: 100vh;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+min-height: 100vh;
+background-color: #ffffff;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .foto {
-    width: 40%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+width: 40%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .foto > img {
-    max-width: 100vh;
-}
-
-.down-btn:hover {
-    background: url("img/downbtn-hover.png");
+max-width: 100vh;
 }
 
 .bio {
@@ -177,7 +177,6 @@ span {
     height: 100vh;
     background-color: #000000;
     display: flex;
-    display: -webkit-flex;
     flex-wrap: wrap-reverse;
     flex-direction: column;
     justify-content: center;
@@ -267,6 +266,12 @@ span {
 }
 
 @media (max-width: 767px) {
+    .down-btn, .down-btn:hover {
+        width: 34px;
+        height: 21px;
+        background-size: cover;
+    }
+
     .foto {
         display: none;
     }
@@ -298,6 +303,7 @@ span {
     #head-container {
         background-image: url("img/halo-crop.png");
         background-position: center;
+        background-repeat: no-repeat;
     }
 
     .bio-header, .skill-header {
