@@ -32,7 +32,7 @@ img {
     max-width: 100%;
 }
 
-.flex-container {
+.flex-container, .technology {
 display: flex;
 justify-content: center;
 align-items: center;
@@ -113,9 +113,28 @@ max-width: 100vh;
     line-height: 30px;
 }
 
-.skill-graph, .note {
-    background-image: url("img/diamond.png");
-    background-position: 15px;
+.graph {
+    max-width: 556px;
+    height: 33px;
+    margin-top: 30px;
+    border: 3px solid #26ace2;
+    border-radius: 33px;
+}
+
+.fab {
+    color: #26ace2;
+    font-size: 36px;
+}
+
+.technology {
+    width: 48px;
+    height: 48px;
+    border: 3px solid #26ace2;
+    border-radius: 27px;
+    position: relative;
+    top: -42px;
+    left: -10px;
+    background-color: #ffffff;
 }
 
 .skill-graph {
@@ -125,13 +144,10 @@ max-width: 100vh;
 }
 
 .note {
-    height: 32px;
+    height: 33px;
     background-color: #26ace2;
-    font-family: MyriadPro-Bold, MyriadPro-Regular;
-    color: white;
-    font-size: 24px;
-    display: flex;
-    align-items: center;
+    z-index: 12;
+    border-radius: 27px;
 }
 
 .html-skill {
