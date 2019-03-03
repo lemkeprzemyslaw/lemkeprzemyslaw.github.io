@@ -32,6 +32,10 @@ img {
     max-width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 .flex-container, .technology {
 display: flex;
 justify-content: center;
@@ -62,18 +66,16 @@ font-size: 65px;
 font-size: 55px;
 }
 
-.down-btn {
+.btn-down {
+    font-size: 75px;
+    color: rgba(255, 255, 255, 0.2);
     position: absolute;
     bottom: 37px;
-    left: 50%;
-    background: url("img/downbtn.png");
-    width: 56px;
-    height: 34px;
     transform: translate(-50%);
 }
 
-.down-btn:hover {
-    background: url("img/downbtn-hover.png");
+.btn-down:hover {
+    color: rgba(255, 255, 255, 0.8);
 }
 
 #skills-container {
@@ -276,7 +278,7 @@ max-width: 100vh;
 }
 
 @media (max-width: 767px) {
-    .down-btn, .down-btn:hover {
+    .btn-container, .btn-container:hover {
         width: 34px;
         height: 21px;
         background-size: cover;
