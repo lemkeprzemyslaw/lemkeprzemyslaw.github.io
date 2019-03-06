@@ -1,6 +1,6 @@
-$(function() {
-    $.scrollify({
-        section:".grid",
-        scrollSpeed:1100,
-    });
-});
+// $(function() {
+//     $.scrollify({
+//         section:".grid",
+//         scrollSpeed:1100,
+//     });
+// });

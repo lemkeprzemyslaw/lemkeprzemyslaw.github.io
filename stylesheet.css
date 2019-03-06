@@ -126,6 +126,10 @@ a {
     line-height: 30px;
 }
 
+.skill-indicator {
+    opacity: 0;
+}
+
 .graph {
     max-width: 556px;
     height: 33px;
